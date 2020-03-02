@@ -109,6 +109,7 @@ using System.Data.Entity;namespace MyApp.DB.DBOperations
                 Context.Entry(emp).State = System.Data.Entity.EntityState.Deleted;
                 Context.SaveChanges();
                 return false;
+
             }
         }
     }
